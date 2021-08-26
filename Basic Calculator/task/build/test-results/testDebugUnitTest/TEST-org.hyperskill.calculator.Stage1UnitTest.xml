@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.calculator.Stage1UnitTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2021-08-25T16:20:54" hostname="DESKTOP-C4FFHSS" time="3055.212">
+  <properties/>
+  <testcase name="testShouldCheckButtonsText" classname="org.hyperskill.calculator.Stage1UnitTest" time="3053.417"/>
+  <testcase name="testShouldCheckButtonsExist" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.577"/>
+  <testcase name="testShouldCheckEditTextHintIsSetToZero" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.448"/>
+  <testcase name="testShouldCheckEditTextContainZero" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.392">
+    <failure message="org.junit.ComparisonFailure: The editText with id &quot;editText&quot; should contain &quot;0&quot; in the property text. expected:&lt;[0]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: The editText with id &quot;editText&quot; should contain &quot;0&quot; in the property text. expected:&lt;[0]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.hyperskill.calculator.Stage1UnitTest.testShouldCheckEditTextContainZero(Stage1UnitTest.kt:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:575)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:278)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testShouldCheckEditTextExist" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.378"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
